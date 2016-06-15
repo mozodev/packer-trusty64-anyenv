@@ -26,16 +26,6 @@
           "output": "ubuntu-14-04-x64-virtualbox.box"
         }
       }
-    },
-    {
-      "type": "atlas",
-      "only": ["virtualbox-iso"],
-      "artifact": "mozo-works/trusty-anyenv",
-      "artifact_type": "vagrant.box",
-      "metadata": {
-        "provider": "virtualbox",
-        "version": "0.1.0"
-      }
     }
   ],
   "builders": [
